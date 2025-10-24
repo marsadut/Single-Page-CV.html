@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        /* Pengaturan Dasar */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #fdfdfd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            border: 1px solid #eee;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        /* --- Header --- */
+        header {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+            font-weight: 600;
+            color: #000;
+        }
+
+        header .job-title {
+            font-size: 1.4em;
+            color: #4CAF50; /* Warna Hijau */
+            font-style: italic;
+            margin: 5px 0 15px 0;
+            font-weight: 400;
+        }
+
+        header .contact-info p {
+            margin: 2px 0;
+            font-size: 0.95em;
+            color: #444;
+        }
+
+        /* Garis Pemisah */
+        hr {
+            border: 0;
+            height: 1.5px;
+            background-color: #000;
+            margin: 25px 0;
+        }
+
+        /* --- Bagian Utama --- */
+        section {
+            margin-bottom: 25px;
+        }
+
+        /* Judul Bagian (Skills, Education, etc.) */
+        section h2 {
+            font-size: 1.6em;
+            color: #4CAF50; /* Warna Hijau */
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* --- Skills --- */
+        #skills p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* --- Education & Experience --- */
+        .entry {
+            margin-bottom: 20px;
+        }
+
+        /* Judul (Sekolah / Perusahaan) */
+        .entry h3 {
+            font-size: 1.2em;
+            color: #337ab7; /* Warna Biru */
+            margin: 0 0 5px 0;
+            font-weight: 600;
+        }
+
+        /* Tanggal */
+        .entry .date {
+            font-size: 0.9em;
+            color: #666;
+            margin: 0 0 10px 0;
+        }
+
+        /* List (Achievements) */
+        .entry ul {
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .entry li {
+            margin-bottom: 5px;
+        }
+
+        /* Skills yang digunakan di perusahaan */
+        .entry .skills-used {
+            font-size: 0.95em;
+        }
+
+        /* --- Across the Internet --- */
+        #links p {
+            margin: 5px 0;
+        }
+
+        #links a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+
+        #links a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p class="job-title">Junior Frontend Developer</p>
+            <div class="contact-info">
+                <p>123 Your Street</p>
+                <p>Your City, ST 12345</p>
+                <p>(123) 456-7890</p>
+                <p>no_reply@example.com</p>
+            </div>
+        </header>
+
+        <hr>
+
+        <main>
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>
+                    HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design,
+                    Technical Writing, Presentation
+                </p>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="entry">
+                    <h3>School Name, Location - Degree</h3>
+                    <p class="date">Month 20xx to Month 20xx</p>
+                    <p>List of exciting things you did at university</p>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                
+                <div class="entry">
+                    <h3>Company Name, Location - Job Title</h3>
+                    <p class="date">Month 20xx to Month 20xx</p>
+                    <ul>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                    </ul>
+                    <p class="skills-used">
+                        <strong>Skills:</strong> List of skills used or gained at this company
+                    </p>
+                </div>
+
+                <div class="entry">
+                    <h3>Company Name, Location - Job Title</h3>
+                    <p class="date">Month 20xx to Month 20xx</p>
+                    <ul>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                    </ul>
+                    <p class="skills-used">
+                        <strong>Skills:</strong> List of skills used or gained at this company
+                    </p>
+                </div>
+            </section>
+
+            <section id="links">
+                <h2>Across the Internet</h2>
+                <p>
+                    <a href="#" target="_blank">LinkedIn Profile</a> | 
+                    <a href="#" target="_blank">GitHub Profile</a>
+                </p>
+                <p>Add your LinkedIn, GitHub profile links</p>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
